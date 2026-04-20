@@ -16,17 +16,22 @@
     <div class="container">
       <!-- PRESENTACIÓN -->
       <section class="content-section">
-        <h2>Quiénes somos</h2>
-        <p>
-          Nuestra Casa Carmen es una asociación sin ánimo de lucro que nace para
-          acompañar y apoyar a personas en riesgo de exclusión social. Personas
-          que atraviesan momentos difíciles y necesitan un hogar, apoyo y una
-          oportunidad para volver a empezar.
-        </p>
-        <p>
-          Trabajamos desde el respeto, la cercanía y el calor humano, ofreciendo
-          un espacio seguro y digno para quienes más lo necesitan.
-        </p>
+        <div class="section-with-image">
+          <div class="section-text">
+            <h2>Quiénes somos</h2>
+            <p>
+              Nuestra Casa Carmen es una asociación sin ánimo de lucro que nace para
+              acompañar y apoyar a personas en riesgo de exclusión social. Personas
+              que atraviesan momentos difíciles y necesitan un hogar, apoyo y una
+              oportunidad para volver a empezar.
+            </p>
+            <p>
+              Trabajamos desde el respeto, la cercanía y el calor humano, ofreciendo
+              un espacio seguro y digno para quienes más lo necesitan.
+            </p>
+          </div>
+          <img src="/Gemini_Generated_Image_85iftx85iftx85if (1).png" alt="Acompañamiento y apoyo" class="section-image" />
+        </div>
       </section>
 
       <!-- MISIÓN -->
@@ -71,34 +76,55 @@
       <!-- SERVICIOS -->
       <section class="content-section section-alt">
         <h2>Nuestros servicios</h2>
-        <ul class="services-list">
-          <li>Desalojo de pisos y locales</li>
-          <li>Donaciones y recogida de enseres</li>
-          <li>Desescombros</li>
-          <li>Trabajos de pintura</li>
-          <li>Mudanzas</li>
-          <li>Otros servicios</li>
-        </ul>
+        <div class="services-grid">
+          <div class="service-card">
+            <img src="/Gemini_Generated_Image_85iftx85iftx85if (2).png" alt="Mudanzas" />
+            <div class="service-card-content">
+              <h3>Mudanzas y Desalojos</h3>
+              <p>Realizamos desalojos de pisos y locales, desescombros y traslados.</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="/Gemini_Generated_Image_85iftx85iftx85if (4).png" alt="Pintura" />
+            <div class="service-card-content">
+              <h3>Mantenimiento y Pintura</h3>
+              <p>Trabajos de pintura y pequeñas reformas para renovar espacios.</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="/Gemini_Generated_Image_85iftx85iftx85if (3).png" alt="Donaciones" />
+            <div class="service-card-content">
+              <h3>Recogida de Enseres</h3>
+              <p>Gestionamos donaciones y recogida de enseres para quienes los necesitan.</p>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top: 2rem;">También ofrecemos otros servicios según necesidad. ¡Consúltanos!</p>
       </section>
 
       <!-- HISTORIA -->
       <section class="content-section section-highlight">
-        <h2>De dónde nace Nuestra Casa Carmen</h2>
-        <p>
-          Este proyecto nace de una historia real. Tras muchos años de trabajo y
-          sacrificio dedicados a la familia, mi padre atravesó una etapa muy dura
-          que lo llevó a perderlo todo.
-        </p>
-        <p>
-          Después de una larga rehabilitación y una lucha constante por salir
-          adelante, tomó una decisión difícil pero digna: no convertirse en una
-          carga para su familia. Debido a sus bajos recursos económicos, decidió
-          vivir en una casa hogar.
-        </p>
-        <p>
-          Esa experiencia fue el origen de Nuestra Casa Carmen y de la voluntad de
-          ofrecer a otras personas un hogar, apoyo y una nueva oportunidad.
-        </p>
+        <div class="section-with-image reverse">
+          <div class="section-text">
+            <h2>De dónde nace Nuestra Casa Carmen</h2>
+            <p>
+              Este proyecto nace de una historia real. Tras muchos años de trabajo y
+              sacrificio dedicados a la familia, mi padre atravesó una etapa muy dura
+              que lo llevó a perderlo todo.
+            </p>
+            <p>
+              Después de una larga rehabilitación y una lucha constante por salir
+              adelante, tomó una decisión difícil pero digna: no convertirse en una
+              carga para su familia. Debido a sus bajos recursos económicos, decidió
+              vivir en una casa hogar.
+            </p>
+            <p>
+              Esa experiencia fue el origen de Nuestra Casa Carmen y de la voluntad de
+              ofrecer a otras personas un hogar, apoyo y una nueva oportunidad.
+            </p>
+          </div>
+          <img src="/Gemini_Generated_Image_85iftx85iftx85if (5).png" alt="Nuestra historia" class="section-image" />
+        </div>
       </section>
 
       <!-- CÓMO AYUDAR -->
