@@ -26,7 +26,10 @@ main {
 
 /* Hero section */
 .hero {
-  background: linear-gradient(135deg, #4a7c6f 0%, #5a8d7f 100%);
+  background:
+    linear-gradient(160deg, rgba(45, 80, 70, 0.88) 0%, rgba(74, 124, 111, 0.82) 100%),
+    url('/images/hero.jpg') center / cover no-repeat;
+  background-color: #3d6b5e;
   color: #ffffff;
   padding: 5rem 1.25rem;
   margin-bottom: 0;
@@ -165,6 +168,155 @@ p:last-child {
 
 .services-list li:last-child {
   margin-bottom: 0;
+}
+
+/* Roadmap */
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 1.5rem;
+}
+
+.roadmap-step {
+  display: flex;
+  gap: 1.125rem;
+  align-items: flex-start;
+  padding-bottom: 1.75rem;
+  position: relative;
+}
+
+.roadmap-step:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 0.9375rem;
+  top: 2rem;
+  bottom: 0;
+  width: 2px;
+  background: #d9e8e2;
+}
+
+.roadmap-step__marker {
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  background: #4a7c6f;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.roadmap-step__marker--future {
+  background: #ffffff;
+  border: 2px solid #a8c5bb;
+  color: #7aaa99;
+}
+
+.roadmap-step--active .roadmap-step__marker {
+  background: #4a7c6f;
+  box-shadow: 0 0 0 4px rgba(74, 124, 111, 0.15);
+}
+
+.roadmap-step__body {
+  padding-top: 0.125rem;
+}
+
+.roadmap-step__body h4 {
+  margin: 0 0 0.375rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d2d2d;
+  line-height: 1.4;
+}
+
+.roadmap-step__body p {
+  margin: 0;
+  font-size: 0.925rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Service cards */
+.service-card {
+  border-radius: 8px;
+  padding: 1.75rem;
+  margin-bottom: 1.75rem;
+  border: 1px solid #d9e8e2;
+}
+
+.service-card--featured {
+  background-color: #f5f8f6;
+  border-left: 4px solid #4a7c6f;
+  padding-left: calc(1.75rem - 4px);
+}
+
+.service-card__badge {
+  display: inline-block;
+  background: #4a7c6f;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-bottom: 0.875rem;
+}
+
+.service-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.service-card p {
+  margin-bottom: 0;
+}
+
+.service-card .services-list {
+  margin-top: 1rem;
+}
+
+/* Services grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.625rem;
+}
+
+.service-item {
+  background: #ffffff;
+  border: 1px solid #d9e8e2;
+  border-radius: 6px;
+  padding: 0.875rem 1rem 0.875rem 0.875rem;
+  font-size: 0.95rem;
+  color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.service-item::before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4a7c6f;
+  flex-shrink: 0;
+}
+
+@media (min-width: 600px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Links */
