@@ -10,18 +10,18 @@
 
     <main>
       <!-- HERO -->
+      <!-- TODO: Reemplazar la imagen por una foto real del barrio de La Isleta o de Las Palmas -->
       <section class="hero">
-        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-bg hero-bg--historia" aria-hidden="true"></div>
         <div class="hero-overlay" aria-hidden="true"></div>
         <div class="hero-grain" aria-hidden="true"></div>
         <div class="hero-inner">
-          <span class="hero-eyebrow">Las Palmas de Gran Canaria</span>
+          <span class="hero-eyebrow">La Isleta · Las Palmas de Gran Canaria</span>
           <h1 class="hero-title">Nuestra<br>Casa<br>Carmen</h1>
           <div class="hero-rule" aria-hidden="true"></div>
-          <p class="hero-tagline">Un hogar cuando más se necesita</p>
+          <p class="hero-tagline">Un proyecto que crece desde el corazón</p>
           <blockquote class="hero-quote">
-            "Acompañamos a personas en riesgo de exclusión social
-            desde el respeto y el cuidado."
+            "Estamos construyendo, paso a paso, el hogar que muchas personas necesitan."
           </blockquote>
         </div>
         <div class="hero-scroll" aria-hidden="true">
@@ -42,18 +42,75 @@
               />
             </div>
             <div class="split-body">
-              <span class="label">Asociación sin ánimo de lucro</span>
-              <h2>Quiénes somos</h2>
+              <span class="label">Quiénes somos</span>
+              <h2>Un proyecto que empieza hoy</h2>
               <p>
-                Nuestra Casa Carmen nace para acompañar y apoyar a personas en riesgo de
-                exclusión social. Personas que atraviesan momentos difíciles y necesitan
-                un hogar, apoyo y una oportunidad para volver a empezar.
+                Nuestra Casa Carmen es una asociación sin ánimo de lucro que nace con un
+                objetivo claro: crear una casa hogar para personas en riesgo de exclusión
+                social en Las Palmas de Gran Canaria.
               </p>
               <p>
-                Trabajamos desde el respeto, la cercanía y el calor humano, ofreciendo
-                un espacio seguro y digno para quienes más lo necesitan.
+                Todavía estamos en el camino. Hoy trabajamos para generar los recursos que
+                nos permitan, poco a poco, hacer realidad ese sueño. Cada servicio que
+                prestamos, cada donación que gestionamos, cada mueble que recogemos nos
+                acerca un paso más.
+              </p>
+              <p class="quienes-badge">
+                <span class="badge badge--activo">Proyecto activo · en construcción</span>
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROADMAP -->
+      <section class="section section-camino reveal">
+        <div class="container">
+          <div class="section-header">
+            <span class="label">Nuestro camino</span>
+            <h2>Hacia dónde vamos</h2>
+          </div>
+          <div class="camino-steps stagger">
+
+            <div class="camino-step camino-step--active">
+              <div class="camino-step-header">
+                <span class="camino-num">01</span>
+                <span class="camino-badge">Ahora mismo</span>
+              </div>
+              <h3>Recogidas, mudanzas y donaciones</h3>
+              <p>
+                Hoy generamos ingresos a través de recogidas de enseres, trabajos de
+                transporte y mudanza, y la gestión de donaciones. Estos servicios son el
+                motor que financia todo lo que viene.
+              </p>
+            </div>
+
+            <div class="camino-step">
+              <div class="camino-step-header">
+                <span class="camino-num">02</span>
+                <span class="camino-badge">Próximo objetivo</span>
+              </div>
+              <h3>Primera tienda de segunda mano</h3>
+              <p>
+                Con lo recaudado, queremos abrir nuestra primera tienda de segunda mano.
+                Un espacio donde los enseres donados encuentren nuevos dueños y generen
+                recursos para la asociación.
+              </p>
+            </div>
+
+            <div class="camino-step">
+              <div class="camino-step-header">
+                <span class="camino-num">03</span>
+                <span class="camino-badge">El gran sueño</span>
+              </div>
+              <h3>La casa hogar</h3>
+              <p>
+                El destino final: una casa hogar donde ofrecer cobijo, estabilidad y una
+                nueva oportunidad a personas con precariedad económica o necesidad urgente
+                de un hogar digno.
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
@@ -65,9 +122,9 @@
             <span class="label">Nuestra misión</span>
             <span class="mision-mark" aria-hidden="true">&ldquo;</span>
             <p class="mision-text">
-              Ofrecer cobijo, alimento, compañía y acompañamiento humano a personas
-              con precariedad económica o necesidad urgente de un hogar, ayudándolas
-              a recuperar estabilidad, dignidad y esperanza.
+              Actualmente trabajamos para un futuro. Cada paso que damos hoy
+              es un ladrillo más en la casa que queremos construir para quienes
+              más lo necesitan.
             </p>
           </div>
         </div>
@@ -113,7 +170,7 @@
       <section class="section section-servicios reveal">
         <div class="container">
           <div class="section-header">
-            <span class="label">Lo que ofrecemos</span>
+            <span class="label">Cómo generamos recursos hoy</span>
             <h2>Nuestros servicios</h2>
           </div>
           <div class="servicios-grid stagger">
@@ -125,8 +182,8 @@
                 loading="lazy"
               />
               <div class="servicio-card-body">
-                <h3>Mudanzas y Desalojos</h3>
-                <p>Realizamos desalojos de pisos y locales, desescombros y traslados.</p>
+                <h3>Mudanzas y Transporte</h3>
+                <p>Realizamos desalojos de pisos y locales, desescombros y traslados de muebles y enseres.</p>
               </div>
             </div>
             <div class="servicio-card">
@@ -144,17 +201,17 @@
             <div class="servicio-card">
               <img
                 src="/Gemini_Generated_Image_85iftx85iftx85if (3).png"
-                alt="Recogida de enseres"
+                alt="Recogida de enseres y donaciones"
                 class="servicio-card-img"
                 loading="lazy"
               />
               <div class="servicio-card-body">
-                <h3>Recogida de Enseres</h3>
-                <p>Gestionamos donaciones y recogida de enseres para quienes los necesitan.</p>
+                <h3>Recogida de Enseres y Donaciones</h3>
+                <p>Gestionamos donaciones y recogida de enseres. Cada objeto recogido financia el proyecto.</p>
               </div>
             </div>
           </div>
-          <p class="servicios-note">También ofrecemos otros servicios según necesidad. ¡Consúltanos!</p>
+          <p class="servicios-note">Los beneficios de estos servicios se destinan íntegramente al proyecto Casa Carmen.</p>
         </div>
       </section>
 
@@ -199,8 +256,9 @@
             <span class="label">Únete</span>
             <h2>Cómo puedes ayudar</h2>
             <p>
-              Puedes colaborar con Nuestra Casa Carmen a través de donaciones,
-              voluntariado o apoyo solidario. Cada gesto cuenta.
+              Cada gesto cuenta. Puedes colaborar con donaciones de enseres, con
+              voluntariado, contratando nuestros servicios o simplemente compartiendo
+              el proyecto. Juntos llegaremos antes.
             </p>
             <a href="tel:647915468" class="ayudar-phone">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -209,9 +267,10 @@
               647 915 468
             </a>
             <div class="ayudar-pills">
-              <span class="ayudar-pill">Donaciones</span>
+              <span class="ayudar-pill">Donar enseres</span>
               <span class="ayudar-pill">Voluntariado</span>
-              <span class="ayudar-pill">Apoyo solidario</span>
+              <span class="ayudar-pill">Contratar servicios</span>
+              <span class="ayudar-pill">Difundir el proyecto</span>
             </div>
           </div>
         </div>
@@ -244,11 +303,11 @@
         <div class="footer-inner">
           <div>
             <div class="footer-logo">Nuestra Casa Carmen</div>
-            <div class="footer-tagline">Un hogar cuando más se necesita</div>
+            <div class="footer-tagline">Un proyecto que crece desde el corazón</div>
           </div>
           <div class="footer-sep" aria-hidden="true"></div>
           <div class="footer-meta">
-            Las Palmas de Gran Canaria<br>
+            La Isleta · Las Palmas de Gran Canaria<br>
             Asociación sin ánimo de lucro
           </div>
         </div>
