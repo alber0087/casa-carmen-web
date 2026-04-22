@@ -276,6 +276,94 @@
         </div>
       </section>
 
+      <!-- SOCIOS -->
+      <section class="section section-socios reveal">
+        <div class="container">
+          <div class="section-header socios-header">
+            <span class="label">Hazte socio</span>
+            <h2>Aporta tu granito de arena</h2>
+            <p class="socios-intro">
+              Haciéndote socio colaboras con el proyecto de una manera diferente.
+              Juntos llegamos antes.
+            </p>
+          </div>
+
+          <div class="socios-grid stagger">
+
+            <!-- PARTICULAR -->
+            <div class="socio-card">
+              <div class="socio-card-top">
+                <span class="socio-tipo">Particular</span>
+                <div class="socio-precio">
+                  <span class="socio-precio-num">5€</span>
+                  <span class="socio-precio-periodo">/mes</span>
+                </div>
+                <p class="socio-descripcion">
+                  Colabora con la asociación de una manera diferente y forma parte
+                  de la comunidad que está construyendo Casa Carmen.
+                </p>
+              </div>
+              <ul class="socio-beneficios">
+                <li>
+                  <span class="socio-check" aria-hidden="true">✓</span>
+                  Descuento exclusivo en todos los trabajos que realizamos
+                </li>
+                <li>
+                  <span class="socio-check" aria-hidden="true">✓</span>
+                  Apoyo directo al proyecto Casa Carmen
+                </li>
+                <li>
+                  <span class="socio-check" aria-hidden="true">✓</span>
+                  Actualizaciones sobre el avance del proyecto
+                </li>
+              </ul>
+              <a href="tel:647915468" class="socio-cta">
+                Quiero ser socio
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+
+            <!-- EMPRESA -->
+            <div class="socio-card socio-card--empresa">
+              <div class="socio-card-top">
+                <span class="socio-tipo">Empresa</span>
+                <div class="socio-precio">
+                  <span class="socio-precio-num">Colabora</span>
+                </div>
+                <p class="socio-descripcion">
+                  Tu empresa apoya un proyecto social real y cercano mientras obtiene 
+                  visibilidad como empresa comprometida.
+                </p>
+              </div>
+              <ul class="socio-beneficios">
+                <li>
+                  <span class="socio-check" aria-hidden="true">✓</span>
+                  Descuento exclusivo en todos nuestros servicios
+                </li>
+                <li>
+                  <span class="socio-check" aria-hidden="true">✓</span>
+                  Publicación y publicidad en nuestras redes sociales
+                </li>
+                <li>
+                  <span class="socio-check" aria-hidden="true">✓</span>
+                  Mención como empresa colaboradora en nuestra web
+                </li>
+                <li>
+                  <span class="socio-check" aria-hidden="true">✓</span>
+                  Apoyo a un proyecto de impacto social real
+                </li>
+              </ul>
+              <a href="tel:647915468" class="socio-cta socio-cta--empresa">
+                Contactar ahora
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                647 915 468
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       <!-- CONTACTO -->
       <section class="section section-contacto reveal">
         <div class="container">
