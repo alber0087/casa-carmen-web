@@ -378,7 +378,7 @@
             </div>
             <div>
               <span class="label">Llámanos</span>
-              <a href="tel:667847517" class="contacto-phone">667 847 517</a>
+              <a href="tel:667847517" class="contacto-phone">647 915 468</a>
             </div>
           </div>
         </div>
