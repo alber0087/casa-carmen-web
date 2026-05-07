@@ -96,6 +96,17 @@
                 Un espacio donde los enseres donados encuentren nuevos dueños y generen
                 recursos para la asociación.
               </p>
+              <a
+                href="https://www.milanuncios.com/anuncios-usuario/nuestracasacarmen-238811487.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="camino-link"
+              >
+                <span>Mientras tanto, ya vendemos en Milanuncios</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17L17 7M9 7h8v8"/>
+                </svg>
+              </a>
             </div>
 
             <div class="camino-step">
@@ -389,9 +400,39 @@
     <footer class="site-footer">
       <div class="container">
         <div class="footer-inner">
-          <div>
+          <div class="footer-brand">
             <div class="footer-logo">Nuestra Casa Carmen</div>
             <div class="footer-tagline">Un proyecto que crece desde el corazón</div>
+            <div class="footer-social">
+              <a
+                href="https://instagram.com/nuestracasacarmen"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-social-link"
+                aria-label="Síguenos en Instagram"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5"/>
+                  <circle cx="12" cy="12" r="4"/>
+                  <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/>
+                </svg>
+                <span>@nuestracasacarmen</span>
+              </a>
+              <a
+                href="https://www.milanuncios.com/anuncios-usuario/nuestracasacarmen-238811487.htm"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-social-link"
+                aria-label="Visita nuestra tienda en Milanuncios"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M3 9l1.5-5h15L21 9"/>
+                  <path d="M4 9v11h16V9"/>
+                  <path d="M9 13h6"/>
+                </svg>
+                <span>Tienda en Milanuncios</span>
+              </a>
+            </div>
           </div>
           <div class="footer-sep" aria-hidden="true"></div>
           <div class="footer-meta">
