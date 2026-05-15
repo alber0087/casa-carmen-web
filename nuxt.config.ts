@@ -19,6 +19,13 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap'
         }
+      ],
+      script: [
+        {
+          src: 'https://static.cloudflareinsights.com/beacon.min.js',
+          defer: true,
+          'data-cf-beacon': '{"token": "d5592de48cef47faac471d871ead9635"}'
+        }
       ]
     }
   }
