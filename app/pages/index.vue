@@ -36,7 +36,7 @@
           <div class="split">
             <div class="split-media">
               <img
-                src="/Gemini_Generated_Image_85iftx85iftx85if (1).png"
+                src="/Gemini_Generated_Image_85iftx85iftx85if (1).webp"
                 alt="Acompañamiento y apoyo"
                 loading="lazy"
               />
@@ -187,7 +187,7 @@
           <div class="servicios-grid stagger">
             <div class="servicio-card">
               <img
-                src="/Gemini_Generated_Image_85iftx85iftx85if (2).png"
+                src="/Gemini_Generated_Image_85iftx85iftx85if (2).webp"
                 alt="Mudanzas y desalojos"
                 class="servicio-card-img"
                 loading="lazy"
@@ -199,7 +199,7 @@
             </div>
             <div class="servicio-card">
               <img
-                src="/Gemini_Generated_Image_85iftx85iftx85if (4).png"
+                src="/Gemini_Generated_Image_85iftx85iftx85if (4).webp"
                 alt="Pintura y mantenimiento"
                 class="servicio-card-img"
                 loading="lazy"
@@ -211,7 +211,7 @@
             </div>
             <div class="servicio-card">
               <img
-                src="/Gemini_Generated_Image_85iftx85iftx85if (3).png"
+                src="/Gemini_Generated_Image_85iftx85iftx85if (3).webp"
                 alt="Recogida de enseres y donaciones"
                 class="servicio-card-img"
                 loading="lazy"
@@ -219,6 +219,19 @@
               <div class="servicio-card-body">
                 <h3>Recogida de Enseres y Donaciones</h3>
                 <p>Gestionamos donaciones y recogida de enseres. Cada objeto recogido financia el proyecto.</p>
+              </div>
+            </div>
+            <div class="servicio-card servicio-card--featured">
+              <img
+                src="/limpieza.webp"
+                alt="Limpieza y recuperación de viviendas"
+                class="servicio-card-img"
+                loading="lazy"
+              />
+              <div class="servicio-card-body">
+                <span class="servicio-badge">Servicio especializado</span>
+                <h3>Limpieza y Recuperación de Viviendas</h3>
+                <p>Recuperamos viviendas tras ocupación o abandono: retirada de residuos, limpieza profunda, desinfección completa y eliminación de olores. Entrega en 24–48h.</p>
               </div>
             </div>
           </div>
@@ -232,7 +245,7 @@
           <div class="split split--reverse">
             <div class="split-media">
               <img
-                src="/Gemini_Generated_Image_85iftx85iftx85if (5).png"
+                src="/Gemini_Generated_Image_85iftx85iftx85if (5).webp"
                 alt="Nuestra historia"
                 loading="lazy"
               />
@@ -303,6 +316,9 @@
 
             <!-- PARTICULAR -->
             <div class="socio-card">
+              <div class="socio-card-media">
+                <img src="/particulares.webp" alt="" loading="lazy" />
+              </div>
               <div class="socio-card-top">
                 <span class="socio-tipo">Particular</span>
                 <div class="socio-precio">
@@ -328,18 +344,31 @@
                   Actualizaciones sobre el avance del proyecto
                 </li>
               </ul>
-              <a href="tel:647915468" class="socio-cta">
-                Quiero ser socio
+              <a
+                href="https://buy.stripe.com/test_4gM9ASgI9a3R6ds9emgjC01"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="socio-cta"
+              >
+                Hacerme socio
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
+              <p class="socio-trust">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                Pago seguro con <strong>Stripe</strong> · Cancela cuando quieras
+              </p>
             </div>
 
             <!-- EMPRESA -->
             <div class="socio-card socio-card--empresa">
+              <div class="socio-card-media socio-card-media--empresa">
+                <img src="/empresas.webp" alt="" loading="lazy" />
+              </div>
               <div class="socio-card-top">
                 <span class="socio-tipo">Empresa</span>
                 <div class="socio-precio">
-                  <span class="socio-precio-num">Colabora</span>
+                  <span class="socio-precio-num">10€</span>
+                  <span class="socio-precio-periodo">/mes</span>
                 </div>
                 <p class="socio-descripcion">
                   Tu empresa apoya un proyecto social real y cercano mientras obtiene 
@@ -364,11 +393,19 @@
                   Apoyo a un proyecto de impacto social real
                 </li>
               </ul>
-              <a href="tel:647915468" class="socio-cta socio-cta--empresa">
-                Contactar ahora
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-                647 915 468
+              <a
+                href="https://buy.stripe.com/test_eVq00i9fH8ZN59o4Y6gjC02"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="socio-cta socio-cta--empresa"
+              >
+                Suscribir empresa
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
+              <p class="socio-trust">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                Pago seguro con <strong>Stripe</strong> · Cancela cuando quieras
+              </p>
             </div>
 
           </div>
