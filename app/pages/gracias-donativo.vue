@@ -15,7 +15,7 @@
 
         <p class="gracias-lead">
           Tu donativo ayuda a construir, paso a paso, el hogar que muchas personas
-          necesitan. Recibirás un correo de Stripe con el recibo de tu aportación.
+          necesitan. Gracias por confiar en el proyecto.
         </p>
 
         <div class="gracias-next">
@@ -24,19 +24,12 @@
             <li>
               <span class="gracias-num">01</span>
               <div>
-                <strong>Recibo por email</strong>
-                <p>Stripe te envía el justificante de tu donativo.</p>
-              </div>
-            </li>
-            <li>
-              <span class="gracias-num">02</span>
-              <div>
                 <strong>Tu aportación se pone a trabajar</strong>
                 <p>Cada euro va directo al proyecto de la casa hogar.</p>
               </div>
             </li>
             <li>
-              <span class="gracias-num">03</span>
+              <span class="gracias-num">02</span>
               <div>
                 <strong>¿Quieres acompañarnos más de cerca?</strong>
                 <p>Puedes hacerte socio por 5 € al mes cuando quieras.</p>
