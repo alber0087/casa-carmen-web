@@ -304,23 +304,23 @@
       <section class="section section-socios reveal">
         <div class="container">
           <div class="section-header socios-header">
-            <span class="label">Hazte socio</span>
+            <span class="label">Colabora</span>
             <h2>Aporta tu granito de arena</h2>
             <p class="socios-intro">
-              Haciéndote socio colaboras con el proyecto de una manera diferente.
-              Juntos llegamos antes.
+              Hazte socio cada mes o colabora con un donativo puntual. De las dos
+              formas ayudas a que el proyecto siga creciendo. Juntos llegamos antes.
             </p>
           </div>
 
           <div class="socios-grid stagger">
 
-            <!-- PARTICULAR -->
+            <!-- SOCIO -->
             <div class="socio-card">
               <div class="socio-card-media">
                 <img src="/particulares.webp" alt="" loading="lazy" />
               </div>
               <div class="socio-card-top">
-                <span class="socio-tipo">Particular</span>
+                <span class="socio-tipo">Socio</span>
                 <div class="socio-precio">
                   <span class="socio-precio-num">5€</span>
                   <span class="socio-precio-periodo">/mes</span>
@@ -345,7 +345,7 @@
                 </li>
               </ul>
               <a
-                href="https://buy.stripe.com/test_4gM9ASgI9a3R6ds9emgjC01"
+                href="https://buy.stripe.com/dRmcN78P38KZ51zd3m5Rm00"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="socio-cta"
@@ -359,52 +359,52 @@
               </p>
             </div>
 
-            <!-- EMPRESA -->
-            <div class="socio-card socio-card--empresa">
-              <div class="socio-card-media socio-card-media--empresa">
+            <!-- DONATIVO PUNTUAL -->
+            <div class="socio-card socio-card--donativo">
+              <div class="socio-card-media socio-card-media--donativo">
                 <img src="/empresas.webp" alt="" loading="lazy" />
               </div>
               <div class="socio-card-top">
-                <span class="socio-tipo">Empresa</span>
+                <span class="socio-tipo">Colaborar</span>
                 <div class="socio-precio">
-                  <span class="socio-precio-num">10€</span>
-                  <span class="socio-precio-periodo">/mes</span>
+                  <span class="socio-precio-num">Tú eliges</span>
+                  <span class="socio-precio-periodo">el importe</span>
                 </div>
                 <p class="socio-descripcion">
-                  Tu empresa apoya un proyecto social real y cercano mientras obtiene 
-                  visibilidad como empresa comprometida.
+                  ¿Prefieres no comprometerte cada mes? Haz un donativo puntual de
+                  la cantidad que quieras y ayúdanos a seguir adelante.
                 </p>
               </div>
               <ul class="socio-beneficios">
                 <li>
                   <span class="socio-check" aria-hidden="true">✓</span>
-                  Descuento exclusivo en todos nuestros servicios
+                  Aportas la cantidad que tú decidas
                 </li>
                 <li>
                   <span class="socio-check" aria-hidden="true">✓</span>
-                  Publicación y publicidad en nuestras redes sociales
+                  Pago único, sin suscripción ni compromiso
                 </li>
                 <li>
                   <span class="socio-check" aria-hidden="true">✓</span>
-                  Mención como empresa colaboradora en nuestra web
+                  Recibes el recibo de tu donativo por email
                 </li>
                 <li>
                   <span class="socio-check" aria-hidden="true">✓</span>
-                  Apoyo a un proyecto de impacto social real
+                  Apoyo directo al proyecto Casa Carmen
                 </li>
               </ul>
               <a
-                href="https://buy.stripe.com/test_eVq00i9fH8ZN59o4Y6gjC02"
+                href="https://buy.stripe.com/7sYbJ31mB4uJeC9fbu5Rm01"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="socio-cta socio-cta--empresa"
+                class="socio-cta socio-cta--donativo"
               >
-                Suscribir empresa
+                Hacer un donativo
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
               </a>
               <p class="socio-trust">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
-                Pago seguro con <strong>Stripe</strong> · Cancela cuando quieras
+                Pago seguro con <strong>Stripe</strong> · Pago único
               </p>
             </div>
 
@@ -426,7 +426,7 @@
             </div>
             <div>
               <span class="label">Llámanos</span>
-              <a href="tel:667847517" class="contacto-phone">647 915 468</a>
+              <a href="tel:647915468" class="contacto-phone">647 915 468</a>
             </div>
           </div>
         </div>

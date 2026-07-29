@@ -999,7 +999,7 @@ p {
   transform: scale(1.03);
 }
 
-.socio-card-media--empresa {
+.socio-card-media--donativo {
   background: #2d4e46;
 }
 
@@ -1008,7 +1008,7 @@ p {
   transform: translateY(-4px);
 }
 
-.socio-card--empresa {
+.socio-card--donativo {
   background: var(--sage);
   border-color: var(--sage);
 }
@@ -1027,7 +1027,7 @@ p {
   color: var(--sage);
 }
 
-.socio-card--empresa .socio-tipo {
+.socio-card--donativo .socio-tipo {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -1046,7 +1046,7 @@ p {
   letter-spacing: -0.03em;
 }
 
-.socio-card--empresa .socio-precio-num {
+.socio-card--donativo .socio-precio-num {
   font-size: clamp(1.75rem, 3vw, 2.25rem);
   color: #fff;
 }
@@ -1057,6 +1057,10 @@ p {
   color: var(--ink-light);
 }
 
+.socio-card--donativo .socio-precio-periodo {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .socio-descripcion {
   font-size: 0.9375rem;
   line-height: 1.75;
@@ -1064,7 +1068,7 @@ p {
   margin: 0;
 }
 
-.socio-card--empresa .socio-descripcion {
+.socio-card--donativo .socio-descripcion {
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -1079,7 +1083,7 @@ p {
   padding-top: 1.5rem;
 }
 
-.socio-card--empresa .socio-beneficios {
+.socio-card--donativo .socio-beneficios {
   border-top-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -1092,7 +1096,7 @@ p {
   color: var(--ink-mid);
 }
 
-.socio-card--empresa .socio-beneficios li {
+.socio-card--donativo .socio-beneficios li {
   color: rgba(255, 255, 255, 0.85);
 }
 
@@ -1111,7 +1115,7 @@ p {
   margin-top: 0.1rem;
 }
 
-.socio-card--empresa .socio-check {
+.socio-card--donativo .socio-check {
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
@@ -1144,12 +1148,12 @@ p {
   transform: translateY(-1px);
 }
 
-.socio-cta--empresa {
+.socio-cta--donativo {
   background: #fff;
   color: var(--sage);
 }
 
-.socio-cta--empresa:hover {
+.socio-cta--donativo:hover {
   background: rgba(255, 255, 255, 0.9);
 }
 
@@ -1178,15 +1182,15 @@ p {
   color: var(--ink-mid);
 }
 
-.socio-card--empresa .socio-trust {
+.socio-card--donativo .socio-trust {
   color: rgba(244, 239, 230, 0.7);
 }
 
-.socio-card--empresa .socio-trust svg {
+.socio-card--donativo .socio-trust svg {
   color: var(--cream);
 }
 
-.socio-card--empresa .socio-trust strong {
+.socio-card--donativo .socio-trust strong {
   color: var(--cream);
 }
 
