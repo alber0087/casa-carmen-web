@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Nuestra Casa Carmen">
+  <rect width="64" height="64" rx="13" fill="#3a6358"/>
+  <path fill="#f4efe6" fill-rule="evenodd" d="
+    M32 9 L57 31 L50.5 31 L50.5 55 L13.5 55 L13.5 31 L7 31 Z
+    M32 48.4 C32 48.4 23 42.6 23 37.4 C23 34.3 25.4 31.9 28.4 31.9 C30.1 31.9 31.4 32.8 32 34 C32.6 32.8 33.9 31.9 35.6 31.9 C38.6 31.9 41 34.3 41 37.4 C41 42.6 32 48.4 32 48.4 Z
+  "/>
+</svg>
